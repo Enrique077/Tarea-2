@@ -1,4 +1,5 @@
-
+/*Enrique Mena Hernández
+programa 3*/
 /*Hacer un diagrama de flujo para calcular el precio de un ticket ida y vuelta
 en ferrocarril, conociendo la distancia de ida y el tiempo de estancia.
 Tambi ́en se sabe que si el numero de d ́ıas de estancia es mayor a 7 y la
@@ -15,9 +16,11 @@ int main() {
     scanf("%d", &dias);
     distancia_total = distancia_ida * 2;
     precio_normal = distancia_total * 0.23;
-    if (dias > 7 && distancia_total > 800) {
+    if (dias > 7 && distancia_total > 800) 
+    {
         descuento = precio_normal * 0.30;
-    } else {
+    } else 
+    {
         descuento = 0;
     }
     precio_final = precio_normal - descuento;
