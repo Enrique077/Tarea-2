@@ -1,4 +1,5 @@
-
+/*Enrique Mena Hernández
+programa 4*/
 /*Construir un diagrama de flujo para almacenar en un arreglo unidimen-
 sional los 100 primeros n ́umeros pares. Imprimir al final el arreglo.*/
 
