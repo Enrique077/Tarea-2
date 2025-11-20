@@ -5,7 +5,8 @@ a una cierta tasa de inter ́es mensual. Construya un diagrama de flujo que
 permita obtener el monto de dinero que obtendr ́a al finalizar el mes.*/
 
 #include <stdio.h>
-int main() {
+int main() 
+{
     float capital, tasa, interes, montoFinal;
     printf("Ingrese el capital invertido: ");
     scanf("%f", &capital);
