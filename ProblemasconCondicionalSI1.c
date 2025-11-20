@@ -5,14 +5,17 @@ dato el monto de la compra del cliente, calcule lo que el cliente debe pagar.
 Hacer el diagrama de flujo correspondiente.*/
 
 #include <stdio.h>
-int main() {
+int main() 
+{
     float compra, descuento, pago;
     printf("Ingrese el monto de la compra: ");
     scanf("%f", &compra);
-    if (compra > 2500) {
+    if (compra > 2500) 
+    {
         descuento = compra * 0.08;
         pago = compra - descuento;
-    } else {
+    } else 
+    {
         pago = compra;
     }
     printf("El cliente debe pagar: %.2f\n", pago);
