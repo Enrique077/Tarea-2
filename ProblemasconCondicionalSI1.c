@@ -1,4 +1,5 @@
-
+/*Enrique Mena Hernández
+programa 1*/
 /*En un negocio de productos electrodom ́esticos aplican un descuento del
 8% a todos aquellos clientes cuya compra es superior a $2,500. Dado como
 dato el monto de la compra del cliente, calcule lo que el cliente debe pagar.
