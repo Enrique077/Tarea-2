@@ -1,5 +1,5 @@
 /*Enrique Mena Hernández
-programa 2*/
+programa 3*/
 /*Hacer un diagrama de flujo que calcule la suma de los n ́umeros pares
 comprendidos entre el 10 y 50.*/
 
