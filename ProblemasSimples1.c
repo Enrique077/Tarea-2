@@ -4,8 +4,8 @@ programa 1*/
 calcular la suma, resta y multiplicacion de dichos numeros.*/
 
 #include <stdio.h>
-
-int main() {
+int main() 
+{
     float a, b, suma, resta, multiplicacion;
     printf("Ingrese el primer numero: ");
     scanf("%f", &a);
