@@ -7,7 +7,8 @@ distancias total (ida y vuelta) a recorrer es mayor a 800 km, el ticket tiene
 un descuento del 30%. El precio por km es de $0.23.*/
 
 #include <stdio.h>
-int main() {
+int main() 
+{
     float distancia_ida, distancia_total, precio_normal, descuento, precio_final;
     int dias;
     printf("Ingrese la distancia de ida (km): ");
