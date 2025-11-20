@@ -1,25 +1,27 @@
-
+/*Enrique Mena Hernández
+programa 2*/
 /*construya un programa tal que dado como entrada un arreglo unidimen-
 sional de enteros y un n ́umero entero, determine cu ́antas veces se encuentra
 el n ́umero dentro del arreglo.*/
 
 #include <stdio.h>
-int main() {
+int main() 
+{
     int n, X, contador = 0;
     printf("Ingrese el tamaño del arreglo: ");
     scanf("%d", &n);
     int arreglo[n];
-    // Leer los elementos del arreglo
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) 
+    {
         printf("Ingrese el elemento %d: ", i+1);
         scanf("%d", &arreglo[i]);
     }
-    // Leer el número que queremos buscar
     printf("Ingrese el numero a buscar: ");
     scanf("%d", &X);
-    // Contar cuántas veces aparece X en el arreglo
-    for (int i = 0; i < n; i++) {
-        if (arreglo[i] == X) {
+    for (int i = 0; i < n; i++) 
+    {
+        if (arreglo[i] == X) 
+        {
             contador++;
         }
     }
