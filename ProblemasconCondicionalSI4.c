@@ -1,8 +1,9 @@
-
+/*Enrique Mena Hernández
+programa 4*/
 /*Construir un diagrama de flujo que pueda determinar, dados dos n ́umeros
 enteros, si un n ́umero es divisor del otro.*/
-#include <stdio.h>
 
+#include <stdio.h>
 int main() 
 {
     int A, B;
