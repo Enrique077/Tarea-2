@@ -7,7 +7,6 @@ Area = π ∗ radio2 y la circunferencia se calcula como Circunferencia =
 
 #include <stdio.h>
 #define PI 3.1416
-
 int main() 
 {
     float radio, area, circunferencia;
